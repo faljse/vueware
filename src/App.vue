@@ -19,10 +19,10 @@ function generate() {
   <header>
   </header>
   <body>
-    <input type="text" v-model="count" v-on:change="generate"/><p></p>
-    <input type="text" v-model="version" v-on:change="generate"/><p></p>
-    <input type="text" v-model="productHash" v-on:change="generate"/><p></p>
-    <input type="text" v-model="serial"/><p></p>
+    <input type="text" v-model="count" v-on:change="generate"/>
+    <input type="text" v-model="version" v-on:change="generate"/>
+    <input type="text" v-model="productHash" v-on:change="generate"/>
+    <input type="text" v-model="serial"/>
   </body>
 </template>
 
